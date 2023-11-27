@@ -1,0 +1,26 @@
+
+Final Section: Limitations and Potential Improvements
+Limitations of the Model
+Computational Resources: The style transfer process, especially with larger images and more iterations, can be computationally intensive. This can be a significant limitation for users without access to powerful GPUs.
+
+1. The model might not perform equally well with all types of images. Certain styles or content images with complex patterns or details may not transfer as effectively.
+
+2. The balance between content and style loss is crucial. An improper balance can lead to either overpowering the original content with style or making the style transfer too subtle to notice.
+
+3. The current implementation is not suitable for real-time applications due to the iterative optimization process.
+
+4. The model offers limited control over the style transfer process. Users can't specify regions of the image where they want more or less styling.
+
+Potential Improvements
+
+1. Implementing more advanced optimization techniques or fine-tuning the learning rate could enhance the quality and speed of style transfer.
+
+2. Incorporating features that allow users to have more control over the styling process, like region-specific style transfer.
+
+3. Developing more sophisticated loss functions that better capture the essence of both the content and the style images.
+
+4. Extending the model to work with a broader range of image styles and contents, including illustrations, abstract art, and photographs with complex patterns.
+
+5. Research and implement methods to reduce the computation time, enabling real-time style transfer applications.
+
+
